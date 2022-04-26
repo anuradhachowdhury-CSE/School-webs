@@ -1,5 +1,5 @@
 
-@media only screen and(max-width:720px) {
+/* @media only screen and(max-width:720px) {
    /* header .navs{
     display: flex;
     flex-wrap: wrap;
@@ -15,56 +15,58 @@
     padding-left:10px; 
    margin-left: 10px;
 
-}
-}
-@media only screen and(min-width:725px) {
+} */
+} */
+  @media only screen and(min-width:725px) { 
     header .navs{
         height: 500px;
         border: 1px solid black;
     }
-    /* .navs a{
+    .navs a{
         padding:15px;
-    } */
+    } 
     .navs .first-one{
-       padding-left:600px;  
-       margin-left: 50px;
+       padding-left:600px;   
+        margin-left: 50px;
     
     }
     .sign-button{
         padding: 8px 36px;
     }
- }
-
+  }  
+ 
  .navs a{
     color:black;
     font-size: 24px;
-   padding:15px; 
-    padding-bottom: 30px;
-}
-.navs .first-one{
-    padding-left:600px;  
-    margin-left: 50px;
-
+   padding:2%; 
+    padding-bottom: 2%;
 }
 
+ .navs .first-one{
+    padding-left:100%; 
+    margin-left: 70%; 
+   
 
-.container{
+} 
+
+
+/* .container{
     display:flex;
     flex-wrap: wrap;
     
-    }
+    } */
         .navs{
         width: 100%;
         /* height:600px; */
-        padding-top:30px ;
-        padding-right: 300px;
+        padding-top:10px ;
+        padding-right:60px; 
          background-image:linear-gradient(yellow,cyan);
     }
     .logo{
-        position: absolute;
+        position: relative;
         width:100px;
         height: 60px;
-        top: 30px;
+        /* top: 30px; */
     }
    
     .sign-button{
@@ -89,9 +91,9 @@
     .h1 span{
         color:#21bf73;
     }
-    .navs .row img{
+    /* .navs .row img{
         padding-right: 100px;
-    }
+    } */
     .navs .row p{
         color:grey;
     }
@@ -100,7 +102,7 @@
        .second{
            
           margin-top:300px;
-           height:1200px;
+           height: 1200px;;
            display:grid;
            grid-template column:repeat(1,1fr);
        }
@@ -110,6 +112,7 @@
         height:300px;
         width:100%;
         background-color: white;
+        /* position: relative; */
     }
     #second .row .One{
         background-color: #f0fff0;
@@ -142,7 +145,8 @@
     
     @media only screen and (max-width:720px) {
         .container.online{
-            margin-top: 700px;
+           
+            margin-top: 800px;
         }
         .online h1{
             font-size: medium;
@@ -150,7 +154,7 @@
         }
         .container .online h1{
             padding-left: 10%;
-            padding-bottom: 10%;
+            padding-bottom: 20%;
             
         }
         .card-deck{
@@ -175,7 +179,7 @@
         padding-left: 200px;
         padding-right: 200px;
         background-color: #f0fff0;
-        height:250px;
+        /* height:250px; */
         width:80%;
         
     }
@@ -189,8 +193,8 @@
     }
     /* .online h1{
         /* padding-left: 20%; */
-        padding-bottom: 50px;
-    } */
+        /* padding-bottom: 50px; */
+    /* } */ 
     .online img{
         padding-left: 10px;
         padding-top: 10px;
@@ -212,7 +216,7 @@
     }
     .testimonial{
         margin-top:200px;
-        height: 400px;
+        height: auto;
       
        }
        
@@ -232,7 +236,7 @@
     }
     @media screen (max-width:720px) {
         .last-part{
-            margin-left:20px;
+            margin-left:30%;
             height:700px;
         }
         .last-part h2{
@@ -247,7 +251,7 @@
             height:500px;
         }
         #xtra h2{
-            margin: 50px;
+            margin:10%;
             padding-left:600px;
            
         }
